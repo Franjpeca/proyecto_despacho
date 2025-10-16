@@ -1,0 +1,11 @@
+mode: "prueba"  # o "produccion"
+
+paths:
+  prueba:
+    clientes_root: "data/prueba_clientes/"
+    incoming_root: "data/incoming/"
+    staging_root: "data/staging/"
+  produccion:
+    clientes_root: "vacio"
+    incoming_root: "vacio"
+    staging_root: "vacio"

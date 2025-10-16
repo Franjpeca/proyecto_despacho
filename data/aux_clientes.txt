@@ -1,0 +1,22 @@
+🧠 Cómo lo usará el sistema
+
+Cuando llega un correo, se comprueba primero si su remitente o destinatario está en emails.
+
+Si no hay coincidencia, se buscan keywords en el asunto o cuerpo del mensaje.
+
+Si sigue sin coincidencia, se busca nif en el texto o adjunto (OCR).
+
+Si aún hay duda, y está activado el modo IA local, se le pasa el texto al modelo (por ejemplo, Ollama) con la lista de clientes posibles.
+
+Se asigna la carpeta correspondiente (carpeta) si la confianza supera el umbral.
+
+🧩 Ventajas de este diseño
+
+Es portable: puedes tener una copia para el despacho y otra para pruebas.
+
+Es seguro: no necesita tocar datos personales fuera del entorno.
+
+Es escalable: añadir un nuevo cliente solo requiere copiar un bloque.
+
+Es interpretable: el sistema puede mostrar por qué se asignó (email, keyword, OCR, etc.).
+

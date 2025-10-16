@@ -1,0 +1,45 @@
+# ==== ENTORNOS ====
+.venv/
+.env
+.env.*
+!.env.example
+
+# ==== PYTHON ====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ==== IDE / EDITORES ====
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==== LOGS ====
+logs/
+*.log
+
+# ==== DATOS ====
+data/**/tmp/
+data/**/temp/
+data/private/
+data/**/ocr_cache/
+data/**/backups/
+data/**/output/
+
+# ==== CONFIGURACIÓN LOCAL ====
+config/local_*.yml
+config/credentials.yml
+config/keys.json
+
+# ==== MISC ====
+.DS_Store
+Thumbs.db
+
+config/credentials/
