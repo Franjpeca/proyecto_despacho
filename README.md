@@ -1,5 +1,3 @@
-Activar entorno:
-call .venv\Scripts\activate
+* EN DESARROLLO *
 
-Lanzar test de leer gmail:
-python tests/run_local_tests.py
+Proyecto de automatización de mensajes por diferentes canales para un despacho de abogacía.
